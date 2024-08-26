@@ -6,28 +6,19 @@ body {
   box-sizing: border-box;
 }
 
-.header {
+header,
+footer {
   background-color: #333;
   color: white;
   padding: 1rem;
   text-align: center;
 }
 
-.main {
-  display: flex;
-  justify-content: space-around;
-  padding: 2rem;
-}
-
-.section {
+section,
+article,
+aside {
   border: 1px solid #ddd;
-  padding: 1rem;
-  text-align: center;
-}
-
-.footer {
-  background-color: #333;
-  color: white;
+  margin: 1rem;
   padding: 1rem;
   text-align: center;
 }
