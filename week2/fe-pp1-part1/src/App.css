@@ -1,0 +1,44 @@
+*,  *:before, *:after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+.App-logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.id-card {
+  border: 2px solid black;
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+  max-width: 600px;
+  
+}
+
+.card-data {
+  list-style: none;
+}
+
+.greeting-card, .number-card {
+  border: 2px solid black;
+  padding: 5px;
+  max-width: 600px;
+}
